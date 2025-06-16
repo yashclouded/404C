@@ -1,0 +1,34 @@
+body {
+  background: #000;
+  color: lime;
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.terminal {
+  border: 2px solid lime;
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  box-shadow: 0 0 15px lime;
+}
+input,
+button {
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+#riddleBox {
+  margin-top: 20px;
+  display: none;
+}
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+body {
+  background: #000;
+  color: #0f0;
+  font-family: "Courier New", monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 700px;
+}
+th,
+td {
+  border: 1px solid #0f0;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background: #003300;
+}
+caption {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+a {
+  color: cyan;
+  margin-top: 20px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Escape Terminal</title>
+<link rel="stylesheet" href="style_portal.css">
+</head>
+<body>
+<div class="terminal">
+  <h2>Secure Portal Verification</h2>
+  <p id="welcome"></p>
+
+  <input id="codeInput" placeholder="Enter your escape code">
+  <button onclick="verifyCode()">Verify</button>
+  <div id="codeError" style="color:red"></div>
+
+  <div id="riddleBox">
+    <p id="riddleText"></p>
+    <input id="answerInput" placeholder="Your answer…" oninput="liveType()">
+    <button onclick="checkAnswer()">Submit Answer</button>
+    <div id="live"></div>
+    <div id="result"></div>
+  </div>
+</div>
+
+<script src="script_portal.js"></script>
+
+</script>
+</body>
+</html>
